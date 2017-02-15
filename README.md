@@ -1,19 +1,25 @@
+## Fork that resolves issue [#488](https://github.com/isteven/angular-multi-select/issues/488)
+### Bonuses:
+* ``` npm ``` ready
+* new style with ``` font-awesome ```
+* now closing by clicking outside multiselect works with touchsreen
+
 # AngularJS MultiSelect
-Pure AngularJS directive which creates a dropdown button with multiple or single selections. 
-Doesn't require jQuery and works well with other Javascript libraries. 
+Pure AngularJS directive which creates a dropdown button with multiple or single selections.
+Doesn't require jQuery and works well with other Javascript libraries.
 
 ![Screenshot](https://raw.githubusercontent.com/isteven/angular-multi-select/master/screenshot.png)
 
-### Demo & How To 
+### Demo & How To
 Go to http://isteven.github.io/angular-multi-select
 
 ### Current Version
 4.0.0
 
 ### Change Log
-See <a href="https://github.com/isteven/angular-multi-select/blob/master/CHANGELOG.md">CHANGELOG.md</a>. 
+See <a href="https://github.com/isteven/angular-multi-select/blob/master/CHANGELOG.md">CHANGELOG.md</a>.
 For those who's upgrading from version 2.x.x, do note that this version is not backward-compatible. Please read the manual
-thoroughly and update your code accordingly. 
+thoroughly and update your code accordingly.
 
 ### Bug Reporting
 Please follow these steps:
