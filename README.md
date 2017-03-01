@@ -1,8 +1,11 @@
 ## Fork that resolves issue [#488](https://github.com/isteven/angular-multi-select/issues/488)
 ### Bonuses:
 * ``` npm ``` ready
-* new style with ``` font-awesome ```
+* new upgraded style with ``` font-awesome ```
 * now closing by clicking outside multiselect works with touchsreen
+* added attr nothing-selected as string to overwrite "None" if no option is selected
+
+![New_Screenshot](https://raw.githubusercontent.com/WRinnovation/angular-multi-select/master/new_interface.png)
 
 # AngularJS MultiSelect
 Pure AngularJS directive which creates a dropdown button with multiple or single selections.

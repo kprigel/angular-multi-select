@@ -31,7 +31,7 @@
  * --------------------------------------------------------------------------------
  */
 
-'use strict'
+'use strict';
 
 angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect' , [ '$sce', '$timeout', '$templateCache', function ( $sce, $timeout, $templateCache ) {
     return {
@@ -58,7 +58,8 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
             onSelectNone    : '&',
 
             // i18n
-            translation     : '='
+            translation     : '=',
+
         },
 
         /*
@@ -969,7 +970,13 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
                 $scope.lang.selectNone      = $sce.trustAsHtml( '<i class="fa fa-times"></i>' + '&nbsp;&nbsp;Select None' );
                 $scope.lang.reset           = $sce.trustAsHtml('<i class="fa fa-chevron-up"></i>'      + '&nbsp;&nbsp;Close' );
                 $scope.lang.search          = 'Search...';
-                $scope.lang.nothingSelected = 'All Selected';
+                if (attrs.nothingSelected === undefined){
+                    $scope.lang.nothingSelected = 'None';
+                }
+                else {
+                    $scope.lang.nothingSelected = attrs.nothingSelected;
+                }
+
             }
             $scope.icon.tickMark = $sce.trustAsHtml( '<i class="fa fa-check"></i>' );
 
