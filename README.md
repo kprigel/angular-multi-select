@@ -3,7 +3,7 @@
 * ``` npm ``` ready
 * new upgraded style with ``` font-awesome ```
 * now closing by clicking outside multiselect works with touchsreen
-* added attr nothing-selected as string to overwrite "None" if no option is selected
+* added attr ``` nothing-selected ``` as string to overwrite "None" if no option is selected
 
 ![New_Screenshot](https://raw.githubusercontent.com/WRinnovation/angular-multi-select/master/new_interface.png)
 
