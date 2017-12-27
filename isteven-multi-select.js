@@ -41,11 +41,11 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
         scope:
         {
             // models
-            inputModel      : '=',
-            outputModel     : '=',
+            inputModel      : '=?',
+            outputModel     : '=?',
 
             // settings based on attribute
-            isDisabled      : '=',
+            isDisabled      : '=?',
 
             // callbacks
             onClear         : '&',
@@ -58,7 +58,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
             onSelectNone    : '&',
 
             // i18n
-            translation     : '=',
+            translation     : '=?',
 
         },
 
